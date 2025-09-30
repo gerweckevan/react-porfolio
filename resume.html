@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evan Gerweck | Resume</title>
+  <link rel="stylesheet" href="styles/resume.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__content">
+      <p class="hero__tag">Product-Focused Full-Stack Engineer</p>
+      <h1 class="hero__title">Evan Gerweck</h1>
+      <p class="hero__subtitle">Building polished digital experiences with delightful user journeys.</p>
+      <div class="hero__meta">
+        <span>Denver, CO</span>
+        <span>•</span>
+        <a href="mailto:gerweckevan@gmail.com">gerweckevan@gmail.com</a>
+        <span>•</span>
+        <a href="https://www.linkedin.com/in/evangerweck" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+      <div class="hero__actions">
+        <a class="btn" href="#contact">Let's work together</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="card summary">
+      <h2>Summary</h2>
+      <p>
+        Engineer with a product mindset and a passion for storytelling through design.
+        I work across the stack to deliver resilient, performant applications while
+        keeping the user experience front and center.
+      </p>
+    </section>
+
+    <section class="card experience">
+      <h2>Experience</h2>
+      <article class="timeline__item">
+        <header>
+          <h3>Senior Front-End Engineer · Freelance</h3>
+          <span class="timeline__range">2021 — Present</span>
+        </header>
+        <ul>
+          <li>Partner with founders and creative teams to design, prototype, and build marketing experiences for new product launches.</li>
+          <li>Lead accessibility audits and implement improvements that boost Lighthouse scores and inclusive design metrics.</li>
+          <li>Introduce component-driven architecture that cuts build time and improves maintainability across client projects.</li>
+        </ul>
+      </article>
+      <article class="timeline__item">
+        <header>
+          <h3>Product Designer &amp; Engineer · Various Teams</h3>
+          <span class="timeline__range">2017 — 2021</span>
+        </header>
+        <ul>
+          <li>Ran design sprints to align stakeholders, translated insights into polished UI, and shipped features used by thousands of customers.</li>
+          <li>Built internal tooling that automated manual workflows and reduced operational overhead by 35%.</li>
+          <li>Mentored designers and junior engineers on bridging the gap between concept and implementation.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="card projects">
+      <h2>Highlighted Projects</h2>
+      <article>
+        <h3>Storyteller Portfolio</h3>
+        <p>Interactive case-study platform with scroll-driven animations and custom CMS integration for effortless content updates.</p>
+        <ul class="tags">
+          <li>React</li>
+          <li>Three.js</li>
+          <li>Node</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Growth Experimentation Toolkit</h3>
+        <p>Experiment dashboard that aggregates analytics, automates reporting, and helps teams prioritize high-impact experiments.</p>
+        <ul class="tags">
+          <li>Next.js</li>
+          <li>TypeScript</li>
+          <li>PostgreSQL</li>
+        </ul>
+      </article>
+      <article>
+        <h3>DesignOps Playbook</h3>
+        <p>Guided onboarding experience and resource hub for design teams, featuring interactive workshops and component libraries.</p>
+        <ul class="tags">
+          <li>Figma</li>
+          <li>Storybook</li>
+          <li>Design Systems</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="card skills">
+      <h2>Skills</h2>
+      <div class="skills__grid">
+        <div>
+          <h3>Engineering</h3>
+          <ul>
+            <li>React, Next.js, TypeScript</li>
+            <li>Node.js, Express</li>
+            <li>REST &amp; GraphQL APIs</li>
+            <li>Vercel, Netlify, AWS</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Design</h3>
+          <ul>
+            <li>UI/UX Research</li>
+            <li>Design Systems</li>
+            <li>Interaction Design</li>
+            <li>Rapid Prototyping</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Collaboration</h3>
+          <ul>
+            <li>Product Strategy</li>
+            <li>Workshop Facilitation</li>
+            <li>Cross-functional Leadership</li>
+            <li>Stakeholder Alignment</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="card education">
+      <h2>Education</h2>
+      <article>
+        <h3>Colorado State University</h3>
+        <p>B.S. in Computer Information Systems, 2017</p>
+      </article>
+    </section>
+
+    <section class="card contact" id="contact">
+      <h2>Contact</h2>
+      <p>I'm always interested in collaborating on meaningful products and thoughtful brand experiences.</p>
+      <a class="btn btn--outline" href="mailto:gerweckevan@gmail.com">Start a conversation</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Evan Gerweck. Crafted with intent and curiosity.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
